@@ -5,11 +5,11 @@
   --header-height: 3rem;
   --font-semi: 600;
   /*===== Colores =====*/
-  /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
+  /*Green hue adjustment*/
   /* HSL color mode */
-  --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+  --hue-color: 120; /* Changed to green hue */
+  --first-color: hsl(var(--hue-color), 50%, 60%); /* Lighter green */
+  --second-color: hsl(var(--hue-color), 56%, 12%); /* Darker green */
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -25,6 +25,7 @@
   --z-back: -10;
   --z-fixed: 100;
 }
+
 
 @media screen and (min-width: 968px) {
   :root {
